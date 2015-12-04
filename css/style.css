@@ -45,7 +45,13 @@ h1{
 
 .textBox p{
 	margin: 8px;
-	font-family: "Helvetica";
+	font-family: "Lucida Console";
+}
+
+#intro{
+	font-family: Arial;
+	font-size: 18px;
+	margin: 10px;
 }
 
 #linkImage{
