@@ -12,10 +12,20 @@
 <body>
 	<h1>JS Dialogs Library</h1>
 
-	<div class="pageButton"><a class = "buttonText" href="javascript:showAlert()">Alert</a></div>
-	<div class="pageButton"><a class = "buttonText" href="javascript:showConfirm()">Confirm</a></div>
-	<div class="pageButton"><a class = "buttonText" href="javascript:showPrompt()">Prompt</a></div>
+	<div class="container">
+		<div class="pageButton"><a href="javascript:showAlert('Alert!')">Alert</a></div>
+		<div class="textBox"><p>Alert text</p></div>
+	</div>
+	<div class="container">
+		<div class="pageButton"><a href="javascript:showConfirm('Click OK to confirm or Cancel to cancel: ')">Confirm</a></div>
+		<div class="textBox"><p>Confirm text</p></div>
+	</div>
+	<div class="container" style>
+		<div class="pageButton"><a href="javascript:showPrompt()">Prompt</a></div>
+		<div class="textBox"><p>Prompt text</p></div>
+	</div>
+	<div style="clear: both"></div>
 
-	<a target = "_blank" href="http://github.com/GCrispino/ame220-Final">GitHub Link!</a>
+	<a target = "_blank" href="http://github.com/GCrispino/ame220-Final"><img id = "linkImage" src="img/github.png"></a>
 </body>
 </html>

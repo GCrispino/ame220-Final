@@ -36,21 +36,30 @@ var dialog = {
 }
 
 
-function showAlert()
+function showAlert(text)
 {
-  dialog.show("alert", "This is an alert");
+  if (!text)
+    text = ""
+  dialog.show("alert",text);
 }
 
-function showConfirm()
+function showConfirm(text)
 {
   var successCallback = function(){ alert("OK clicked") }
   var failureCallback = function(){ alert("Cancel clicked") }
-  dialog.show("confirm", "This is an confirmation", successCallback, failureCallback);
+
+  if (!text)
+    text = ""
+  dialog.show("confirm", text, successCallback, failureCallback);
 }
 
-function showPrompt()
+function showPrompt(text)
 {
   var successCallback = function(){ alert(dialog.value) }
   var failureCallback = function(){}
-  dialog.show("prompt", "This is an prompt", successCallback, failureCallback);
+
+  if (!text)
+    text = ""
+
+  dialog.show("prompt", text, successCallback, failureCallback);
 }

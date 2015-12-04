@@ -7,22 +7,51 @@ h1{
 	font-family: "Trebuchet MS","Lucida Sans Unicode";
 }
 
+.container{
+	display: block;
+	margin: auto;
+	margin-top: 10%;
+	margin-bottom: 20%;
+}
+
 .pageButton{
 	border: 5px solid black;
-	border-radius: 15px;
+	border-radius: 20px;
+	float: left;
 	padding: 1%;
 	width: 100px;
 	text-align: center;
 	background-color: #6699CC;
-	margin-left: 45%;
+	margin-left: 26%;
+	margin-right: 10%;
 	margin-bottom: 1%;
 }
 .pageButton a{
 	font-size: 25px;
 	font-family: "Helvetica";
-}
-
-.buttonText:link{
 	text-decoration: none;
 	color: #F8F8F8;
+}
+
+.textBox{
+	border: 5px solid black;
+	height: 100px;
+	width: 450px;
+	float: left;
+	margin-top: -2%;
+	margin-bottom: 8%;
+	background-color: white;
+}
+
+.textBox p{
+	margin: 8px;
+	font-family: "Helvetica";
+}
+
+#linkImage{
+	display: block;
+	width: 80px;
+	height: 80px;
+	margin: auto;
+	margin-bottom: 5px;
 }
