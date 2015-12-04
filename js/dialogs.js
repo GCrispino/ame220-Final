@@ -45,8 +45,8 @@ function showAlert(text)
 
 function showConfirm(text)
 {
-  var successCallback = function(){ alert("OK clicked") }
-  var failureCallback = function(){ alert("Cancel clicked") }
+  var successCallback = function(){ showAlert("OK clicked") }
+  var failureCallback = function(){ showAlert("Cancel clicked") }
 
   if (!text)
     text = ""
@@ -55,7 +55,7 @@ function showConfirm(text)
 
 function showPrompt(text)
 {
-  var successCallback = function(){ alert(dialog.value) }
+  var successCallback = function(){ showAlert(dialog.value) }
   var failureCallback = function(){}
 
   if (!text)

@@ -7,6 +7,12 @@ h1{
 	font-family: "Trebuchet MS","Lucida Sans Unicode";
 }
 
+.paragraph{
+	font-family: Arial;
+	font-size: 18px;
+	margin: 10px;
+}
+
 .container{
 	display: block;
 	margin: auto;
@@ -46,12 +52,6 @@ h1{
 .textBox p{
 	margin: 8px;
 	font-family: "Lucida Console";
-}
-
-#intro{
-	font-family: Arial;
-	font-size: 18px;
-	margin: 10px;
 }
 
 #linkImage{
