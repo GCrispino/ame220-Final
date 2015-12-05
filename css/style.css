@@ -55,9 +55,9 @@ h1{
 }
 
 #linkImage{
-	display: block;
+	/*display: block;*/
+	/*margin: auto;*/
 	width: 80px;
 	height: 80px;
-	margin: auto;
 	margin-bottom: 5px;
 }
